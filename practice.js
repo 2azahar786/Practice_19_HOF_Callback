@@ -101,9 +101,17 @@ const arr = ["hi","hello", "welcome", "namaste", "pranam"];
 // let [var1, var3]= arr1
 // console.log(var1,var3);
 
-const arr2 = [1,2,3,4,5,6,7,8,9];
-let [num1, num2, ...rest]=arr2
-console.log([num1,num2]);
-console.log(rest);
+// const arr2 = [1,2,3,4,5,6,7,8,9];
+// let [num1, num2, ...rest]=arr2
+// console.log([num1,num2]);
+// console.log(rest);
 
 // find
+
+const ages = [10,20,24,25,30,35];
+ages.find(checkage);
+function checkage(age){
+    return age >30;
+}
+
+console.log(age);
